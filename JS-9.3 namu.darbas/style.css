@@ -1,0 +1,18 @@
+/* 3 užduotis
+Sukurkite input elementą (formos ar mygtuko nereikia), kur vartotojas galės įrašyti savo vardą. Kai rašo - keičiasi puslapio stilius. Jei įrašytos yra du simboliai arba mažiau - viso puslapio fonas raudonas. Jei daugiau nei du simboliai - puslapio fonas žalias. */
+
+body {
+    display: flex;
+    font-size: 2em;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: backgraund-color 0.3s ease-in-out;
+}
+input {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
